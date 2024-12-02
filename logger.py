@@ -2,8 +2,6 @@ import logging
 from io import IOBase
 import coloredlogs
 
-from pywidevinely.utils import console
-
 LOG_FORMAT = "{asctime} {name} : {message}"
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 LOG_STYLE = "{"
@@ -11,8 +9,13 @@ LOG_FORMATTER = logging.Formatter(LOG_FORMAT, LOG_DATE_FORMAT, LOG_STYLE)
 
 
 class Logger(logging.Logger):
-    def __init__(self, name="pywidevinely", level=logging.NOTSET, color=True):
+    def __init__(self, name="widevinely", level=logging.NOTSET, color=True):
         """Initialize the logger with a name and an optional level."""
+        global console
+        from widevinely.utils import (
+            console,
+        )  # If we place it on top we will get an CircularImportError
+
         super().__init__(name, level)
         if self.name == "logger":
             self.add_stream_handler()
@@ -21,8 +24,8 @@ class Logger(logging.Logger):
 
     def success_(self, msg, style="green", debug=True):
         """
-        Printing the message and return.
-        When it's an internal message it will log and return.
+        Printing the success message and return.
+        When it's an internal success message it will log and return.
         """
         if debug:
             self.debug(msg)
@@ -109,14 +112,8 @@ _loggers = {}
 
 
 # noinspection PyPep8Naming
-def getLogger(name=None, api=False, level=logging.NOTSET):
-    name = (
-        f"pywidevinely.{name}"
-        if name and not api
-        else name
-        if name and api
-        else "pywidevinely"
-    )
+def getLogger(name=None, level=logging.NOTSET):
+    name = f"widevinely.{name}" if name else "widevinely"
     _log = _loggers.get(name, Logger(name))
     _log.setLevel(level)
     return _log

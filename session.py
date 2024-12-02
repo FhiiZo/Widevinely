@@ -1,16 +1,20 @@
-from typing import Optional
-
-from Crypto.Random import get_random_bytes
-
-from pywidevinely.key import Key
-from pywidevinely.utils.protos.license_protocol_pb2 import SignedDrmCertificate
+from widevinely.utils.BamSDK.services import Service
 
 
-class Session:
-    def __init__(self, number: int):
-        self.number = number
-        self.id = get_random_bytes(16)
-        self.service_certificate: Optional[SignedDrmCertificate] = None
-        self.context: dict[bytes, tuple[bytes, bytes]] = {}
-        self.keys: list[Key] = []
-        self.opened_at = None
+# noinspection PyPep8Naming
+class session(Service):
+    def getInfo(self, access_token: str) -> dict:
+        endpoint = self.client.endpoints["getInfo"]
+        return self.session.request(
+            method=endpoint.method,
+            url=endpoint.href,
+            headers=endpoint.get_headers(accessToken=access_token),
+        ).json()
+
+    def getLocation(self, access_token: str) -> dict:
+        endpoint = self.client.endpoints["getLocation"]
+        return self.session.request(
+            method=endpoint.method,
+            url=endpoint.href,
+            headers=endpoint.get_headers(accessToken=access_token),
+        ).json()
