@@ -1,0 +1,18 @@
+endpoints:
+  manifest: https://api.nlziet.nl/v7/stream/handshake/Widevine/Dash/VOD/{title_id}
+  tokens: https://id.nlziet.nl/connect/token
+  series_content: https://api.nlziet.nl/v7/series/{title_id}
+  content_details: https://api.nlziet.nl/v7/content/detail/{title_id}
+  profiles: https://api.nlziet.nl/v7/profile
+client:
+  desktop:
+    appVersion: 5.1.4
+    playerVersion: 8.59.0
+    playerName: BitmovinWeb
+  android:
+    playerName: NLZIET Android Exo Player
+    maxResolution: '1080'
+    User-Agent: okhttp/3.12.8
+    client_id: triple-android
+    
+key_policy: ALL

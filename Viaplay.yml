@@ -1,0 +1,6 @@
+endpoints:
+  manifest_url: https://play.viaplay.com/api/
+  content_url: https://content.viaplay.com/pcdash-{region}/
+  auth_url: https://login.viaplay.com/api/
+
+key_policy: ALL

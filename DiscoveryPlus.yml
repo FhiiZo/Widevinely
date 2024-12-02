@@ -1,0 +1,19 @@
+certificate: |
+  CrYCCAMSEJRzG84P41YiqFJz1Z5wB/UYkdXgpQUijgIwggEKAoIBAQC6vlJ9lUo8SDe3y/+eNs2VLLCWOW9ZOU97NUbwOJcN9HLbL9clUvzvVool4cPU6NF
+  DvzWfjcIL3VvUmtQ7IQYNYMK9ps6JaMNN+pHyPkjsc0CLn2mX95gxeWWkZul6PAipMZVVTOWS7gVo4EAydZfa2wH7UZVJuTohFI8MrSZQueLel2FTO3+w+T
+  UFlnqCRqrEiz5tUBqIiUcnO0VSDDx1kDWZkt0OYNNTaGvGex9aLOcBFmjlQOwqiTM+TDdJqJpNEO9Sm6PuKEbZ1K/eOxGiTuQyQgWfJad1onP3g5zYPuezU
+  AgEGRf6BEUDUAuMAJyUwtrq6MH0tjhpxhvINpabAgMBAAE6CWNvbmF4LmNvbRKAA22PoCV8lNpk2b26PGrW5qiX+m9Q7DYRW5SRfYXCpfBM6VsN5WPosUoe
+  26TLJXjBzvEBJRhLB+hN6rKv9KWDqyoQC+jPiIfducCkZngjUh4vdPTODjePE9C5Dx1rDURaZG+I7JD6z0lAKpjKyI1JyFGkfoXyywFp8l5dZbxuB+KJxw1
+  Id0PXDUEQOrayXv9xVVWYXKUFGv4j8FKpFYJR9u0JEkkiMb1ylTBDS+shQznX3ajYUcrrJcB2OLlfVWneJG7/1TgXypLGVFAu/gVcJdtODK+TOT5zmU4Lin
+  0gApOO1Ff7sp7KyzQfKpVEAyivl1GYtEIktEXX9wWPTNpXz05xNEi68FUwwxaKCiT0UdjWydyrV+rF9rUXLX4iWf+FqR9oZ8MV7S/4gm3jCLmthAlCsn6/y
+  ZAxLoTTCDqC5NO+tEOvGRSMqMc1CHtD/Py03lcCcoOY7t3GEXBlwKacPNBRfffYuOeDhwH+FXAozQHUkeSjZGm+HMUhUONkx20qEg==
+
+endpoints:
+  show: https://{region}1-prod-direct.discoveryplus.com/cms/routes/show/{title_id}?include=default&decorators=viewingHistory,isFavorite,playbackAllowed
+  season: https://eu1-prod-direct.discoveryplus.com/cms/collections/{generic_id}?include=default&decorators=viewingHistory,isFavorite,playbackAllowed&{season}&{show_id}
+  video_playback_info: https://{region}1-prod-direct.discoveryplus.com/playback/v3/videoPlaybackInfo
+license:
+  us: https://content-discovery.uplynk.com/wv
+  eu: https://discovery-eur.conax.cloud/widevine/license
+
+key_policy: ALL

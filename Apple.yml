@@ -1,0 +1,34 @@
+certificate: |
+  CsECCAMSEBcFuRfMEgSGiwYzOi93KowYgrSCkgUijgIwggEKAoIBAQCZ7Vs7Mn2rXiTvw7YqlbWYUgrVvMs3UD4GRbgU2Ha430BRBEGtjOOtsRu4jE5yWl5Kn
+  geVKR1YWEAjp+GvDjipEnk5MAhhC28VjIeMfiG/+/7qd+EBnh5XgeikX0YmPRTmDoBYqGB63OBPrIRXsTeo1nzN6zNwXZg6IftO7L1KEMpHSQykfqpdQ4IY3b
+  rxyt4zkvE9b/tkQv0x4b9AsMYE0cS6TJUgpL+X7r1gkpr87vVbuvVk4tDnbNfFXHOggrmWEguDWe3OJHBwgmgNb2fG2CxKxfMTRJCnTuw3r0svAQxZ6ChD4lg
+  vC2ufXbD8Xm7fZPvTCLRxG88SUAGcn1oJAgMBAAE6FGxpY2Vuc2Uud2lkZXZpbmUuY29tEoADrjRzFLWoNSl/JxOI+3u4y1J30kmCPN3R2jC5MzlRHrPMveoE
+  uUS5J8EhNG79verJ1BORfm7BdqEEOEYKUDvBlSubpOTOD8S/wgqYCKqvS/zRnB3PzfV0zKwo0bQQQWz53ogEMBy9szTK/NDUCXhCOmQuVGE98K/PlspKkknYV
+  eQrOnA+8XZ/apvTbWv4K+drvwy6T95Z0qvMdv62Qke4XEMfvKUiZrYZ/DaXlUP8qcu9u/r6DhpV51Wjx7zmVflkb1gquc9wqgi5efhn9joLK3/bNixbxOzVVd
+  hbyqnFk8ODyFfUnaq3fkC3hR3f0kmYgI41sljnXXjqwMoW9wRzBMINk+3k6P8cbxfmJD4/Paj8FwmHDsRfuoI6Jj8M76H3CTsZCZKDJjM3BQQ6Kb2m+bQ0LMj
+  fVDyxoRgvfF//M/EEkPrKWyU2C3YBXpxaBquO4C8A0ujVmGEEqsxN1HX9lu6c5OMm8huDxwWFd7OHMs3avGpr7RP7DUnTikXrh6X0
+
+user_agent: ATVE/6.2.0 Android/10 build/6A226 maker/Google model/Chromecast FW/QTS2.200918.0337115981
+
+endpoints:
+  title: https://tv.apple.com/api/uts/v3/{type}/{id}
+  episodes: https://tv.apple.com/api/uts/v3/shows/{id}/episodes
+  episode: https://tv.apple.com/api/uts/v3/episodes/{id}
+  manifest: https://tv.apple.com/api/uts/v2/view/product/{id}/personalized
+  license: https://play.itunes.apple.com/WebObjects/MZPlay.woa/wa/fpsRequest
+  account: https://buy.tv.apple.com/account/web/info
+  
+device:
+  utsk: 6e3013c6d6fae3c2::::::e08f7cfb96228836
+  caller: atv
+  v: '46'
+  pfm: atv
+  mfr: Apple
+  locale: en-US
+  l: en
+  ctx_brand: tvs.sbd.4000
+  count: '100'
+  skip: '0'
+  nextToken: 0:9999
+
+storefrontmappings: https://gist.githubusercontent.com/Hollander-1908/706a361f865446d800c9b49c60aea666/raw/8f01e4a4cb02cf97a48aba4665286b0e8de14b8e/storefrontmappings.json

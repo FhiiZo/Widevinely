@@ -1,0 +1,51 @@
+pcok_certificate: |
+  CAUSxAUKvgIIAxIQ3jU+eOhXYZhGTDH6lp+fcBiS3/KABiKOAjCCAQoCggEBANTn3M1GfSTEzTRXi4tZio3jt0wsD2LcYOi0j7IQk9DvqSGW8U+V96+vefQj
+  38zg6LLa5v3vLgwaSIHfsG2DPly8pBtVzuIkGVIuZnnxHw95uSPq4b9Eu1c37Oz9RCfu8MOopxzaoMqJk72mSIArlGFkcJe8jNbiAYY7Yc9II125KszmYMQ5
+  azcvjq7WWZ/WU51r9Pjo+I0Tl7g4/Nydx/yilHK83aTDfghjpHbR/C1BFOeQN2PuDKo5xW1h9RDk012qGDzg4fvbLXZrS+LWqqsu//oWun0ctuoh0czvMpSa
+  uytVKVSON2WuD9gXeVNHLqSf8luN1Vk6uBqdmp5wr2cCAwEAAToNcGVhY29ja3R2LmNvbUABSAESgAMJsgYw8Fi2I+4diDhY8JWAki0qCysiLA738Zf7R2lh
+  tpFKKr7as1zJuyXSO4/6NEZqe1g6zKV/SPYFgUdUSdWRv2Z+xbfpiUdgGwcZM23oiwrsZ5XoGI9zRLazaWX03yh9TdypFPM+8aiOzkuhDUdY720OuBguiHAU
+  b7YEiKYkRF1uRLKdHQ2hNmN4EjNNVby10ND7I9mpS1a7dKkMF6Sy9wOatMK9Bkxk1vdpKHZDVsoDz8NXtQYwwG0m+OzmGfa1U0n7ufqhbzvzL1OHOq2ky8ae
+  xLyIyK3l79bOS7QrCAc3CN+w21UImjV8uyYT3ACztI5jWqVS2cIPfsGHR7u/UdjOHACou+iurOlEYHuzL3tcTOEOWUWdS4znuRpLpo8DLTgiXfkNAphZa38V
+  4Cn+HDwJMJfSGE1pY4ynfxOK6P6ZKxSbCSr/vVH1WxjQQ36T4ENelokcgk70OT6abTw/QgtZPv+wwnLbbmvzWPIua+y2HgrDjtPg2qQmU/T9O+w=
+
+skys_certificate: |
+  CAUSxgUKwAIIAxIQNcRaCF/AZOxhjpxSJnDx5xiX5NSMBiKOAjCCAQoCggEBANUhv9b4L3vkl8TKqZkuxu4kZdlkVdvH6Ri8+zmD0iU4aS3sTNnSoc+Jw9X
+  OYOMD3cbUf0qUeDx6u8i1eHEQVaKsIdv/WF8+nFwXWZgZnglMyuwXvzynvVSGCopplv2/zuRBkIAuBO1uqA85mBYFbxmOpNdN5Y++VBTGIEzknIEOr32zXFl
+  0/zjakhvnNIUq1a4iULn+lkqJsYAzw7Pv8Uhji6MUiH6jILEdr5+qVTF1vp25g2dd+f5tsD2iT1oRE9dlDC0K/crow5oIo0ea1vsQM+/bakJEcMIzHSnmFA/
+  uucrqH1kowmdReV43ZEwXDhmtb0KsTPjUhleGejuvWIMCAwEAAToPc2t5c2hvd3RpbWUuY29tQAFIARKAA04biwffO3otWtYEkI96X8dX7+Rc2hdQU5JZ7z+
+  Rv+0TlWdXzQSHoR9lRjTtCAriTFc2vHGMBc9Yv/V8VM37yuWZ1jw1hx9HqWmjXRmoKhKbscBsipcRPjXPZjDqmYUo1pOCdqS8jkHgHal+SIS2q27tHmDy444
+  3D4JFle7CviMBJlOS2nGzyhdKjOWukDrHjWp3201lF5JvYq5GexGKMyG9xolMbqRY6dc0+u0qP312/q1frKpPue4PY9yCouTxNws5+5DGMjooGlziLJhvmhq
+  4imbgB16INu1X80jYbjhdFANh5dia4zCSND6tXzSHV1JBCl72xiG/yGmx/tRBey6saxZW6OSE/52/bmFpJPw2KgBArjD9o1aRvt8N9qLwchdrxBhdTOuquxe
+  k3AFA4QscKM5AHgsgp7QXYnKc9azC5ed5AcfNv1helo7bt3IiB/3mJtVGNKMCz+Gf9LMBpT3T+CwGUjNzXFoyfP2Jq8vBr9tBO6UqmvqofQPsaOtshg==
+
+endpoints:
+  personas: https://web.clients.{service}.com/bff/personas/v2?personaType=Adult
+  config: https://config.clients.{service}.com/GLOBAL/{provider}/{proposition}/{device}/PROD/{version}/config.json
+  tokens: https://ovp.{service}.com/auth/tokens
+  me: https://ovp.{service}.com/auth/users/me
+  node: https://atom.{service}.com/adapter-calypso/v3/query/node
+  vod: https://ovp.{service}.com/video/playouts/vod
+  license: https://ovp.{service}.com/drm/widevine/acquirelicense
+
+pcok_client:
+  provider: NBCU
+  proposition: NBCUOTT
+  client_sdk: NBCU-WEB-v4
+
+skys_client:
+  provider: SKYSHOWTIME
+  proposition: SKYSHOWTIME
+  client_sdk: SKYSHOWTIME-ANDROID-v1
+
+device:
+  platform: ANDROID
+  device: TABLET
+  id: Jcvf1y0whKOI29vRXcJy
+  drm_device_id: UNKNOWN
+  auth_scheme: MESSO
+  auth_issuer: NOWTV
+  
+security:
+  pcok_signature_hmac_key_v4: FvT9VtwvhtSZvqnExMsvDDTEvBqR3HdsMcBFtWYV
+  skys_signature_hmac_key_v4: jfj9qGg6aDHaBbFpH6wNEvN6cHuHtZVppHRvBgZs
+  signature_format: SkyOTT client="{client}",signature="{signature}",timestamp="{timestamp}",version="1.0"

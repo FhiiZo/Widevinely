@@ -1,0 +1,5 @@
+endpoints:
+  title: 'https://api.hotstar.com/o/v1/{type}/detail'
+  episodes: 'https://api.hotstar.com/o/v1/tray/g/1/detail'
+  manifest: 'https://api.hotstar.com/play/v2/playback/content/{id}'
+  refresh_token: 'https://api.hotstar.com/um/v3/users/refresh'

@@ -1,0 +1,82 @@
+certificate: |
+  CAUSwgUKvAIIAxIQCuQRtZRasVgFt7DIvVtVHBi17OSpBSKOAjCCAQoCggEBAKU2UrYVOSDlcXajWhpEgGhqGraJtFdUPgu6plJGy9ViaRn5mhyXON5PXm
+  w1krQdi0SLxf00FfIgnYFLpDfvNeItGn9rcx0RNPwP39PW7aW0Fbqi6VCaKWlR24kRpd7NQ4woyMXr7xlBWPwPNxK4xmR/6UuvKyYWEkroyeIjWHAqgCjC
+  mpfIpVcPsyrnMuPFGl82MMVnAhTweTKnEPOqJpxQ1bdQvVNCvkba5gjOTbEnJ7aXegwhmCdRQzXjTeEV2dO8oo5YfxW6pRBovzF6wYBMQYpSCJIA24ptAP
+  /2TkneyJuqm4hJNFvtF8fsBgTQQ4TIhnX4bZ9imuhivYLa6HsCAwEAAToPYW1hem9uLmNvbS1wcm9kEoADETQD6R0H/h9fyg0Hw7mj0M7T4s0bcBf4fMhA
+  Rpwk2X4HpvB49bJ5Yvc4t41mAnXGe/wiXbzsddKMiMffkSE1QWK1CFPBgziU23y1PjQToGiIv/sJIFRKRJ4qMBxIl95xlvSEzKdt68n7wqGa442+uAgk7C
+  XU3uTfVofYY76CrPBnEKQfad/CVqTh48geNTb4qRH1TX30NzCsB9NWlcdvg10pCnWSm8cSHu1d9yH+2yQgsGe52QoHHCqHNzG/wAxMYWTevXQW7EPTBeFy
+  SPY0xUN+2F2FhCf5/A7uFUHywd0zNTswh0QJc93LBTh46clRLO+d4RKBiBSj3rah6Y5iXMw9N9o58tCRc9gFHrjfMNubopWHjDOO3ATUgqXrTp+fKVCmsG
+  uGl1ComHxXV9i1AqHwzzY2JY2vFqo73jR3IElr6oChPIwcNokmNc0D4TXtjE0BoYkbWKJfHvJJihzMOvDicWUsemVHvua9/FBtpbHgpbgwijFPjtQF9Ldb
+  8Swf
+  
+devices:
+  BROWSER: 
+    manufacturer: GOOGLE
+    device_chipset: intel
+    domain: Device
+    app_name: GCB
+    app_version: 2910.219.8
+    device_model: Google Chrome Browser
+    os_version: 1.144.12
+    device_type: AOAGZA014O5RE
+    device_name: Google Chrome Browser
+    software_version: 106.0.5249.119
+    firmware: 1
+
+  NVIDIA_SHIELD_TV: 
+    manufacturer: NVIDIA
+    device_chipset: tegra
+    domain: Device
+    app_name: AIV
+    app_version: 3.12.0
+    device_model: SHIELD Android TV
+    os_version: 28
+    device_type: A1KAXIG6VXSG8Y
+    device_name: "%FIRST_NAME%'s%DUPE_STRATEGY_1ST%Shield TV"
+    software_version: 248
+    firmware: fmw:28-app:3.0.248.49301
+
+  
+endpoints:
+  detail: /gp/video/api/getDetailPage
+  video_detail: /gp/video/detail/{asin}
+  playback: /cdp/catalog/GetPlaybackResources
+  license: /cdp/catalog/GetPlaybackResources
+  xray: /swift/page/xray
+  ontv: /gp/video/ontv/code
+  devicelink: /gp/video/api/codeBasedLinking
+  codepair: /auth/create/codepair
+  register: /auth/register
+  token: /auth/token
+  
+regions:
+  .com:
+    base: www.amazon.com
+    base_api: api.amazon.com
+    base_manifest: atv-ps.amazon.com
+    marketplace_id: ATVPDKIKX0DER
+  .co.uk:
+    base: www.amazon.co.uk
+    base_api: api.amazon.co.uk
+    base_manifest: atv-ps-eu.amazon.co.uk
+    marketplace_id: A2IR4J4NTCP2M5
+  .au:
+    base: www.amazon.com.au
+    base_api: api.amazon.com.au
+    base_manifest: atv-ps-fe.amazon.com.au
+    marketplace_id: A3K6Y4MI8GDYMT
+  .it:
+    base: www.amazon.it
+    base_api: api.amazon.it
+    base_manifest: atv-ps-eu.primevideo.com
+    marketplace_id: A3K6Y4MI8GDYMT
+  .de:
+    base: www.amazon.de
+    base_api: api.amazon.de
+    base_manifest: atv-ps-eu.amazon.de
+    marketplace_id: A1PA6795UKMFR9
+  .co.jp:
+    base: www.amazon.co.jp
+    base_api: api.amazon.co.jp
+    base_manifest: atv-ps-fe.amazon.co.jp
+    marketplace_id: A1VC38T7YXB528

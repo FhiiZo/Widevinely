@@ -1,0 +1,33 @@
+certificate: |
+  CAUSwgUKvAIIAxIQ4DKrlSOsG5Bbfu/bwhJFUBjRrtKBBiKOAjCCAQoCggEBAN8PpH+1wQwYth9DY18TsGUnZZx6NbqExsyyte7sV81BJv2y8Sl65mxG0aFE6J
+  d10vS/czYmkgARQPYHvmFoLcdGN7uTccBhfY5pURSE7HURLF1Zw2lDmKBinVm9srtHtgHazHmQms99+b/lsECXwJRvGmb0LBemJPLOiJ8ghHWZ+zIuJ8Sjg2Ts
+  mJj0Zrs1WtGnM2IHHS7H40Vmu0s8oSIWQC4Blu7G1mydxZkKqAtkkKF+KFx1cqRuoIrmRI+geIj2QNcX49qmhSu5rD+srlUbI/13C7TZP0xN4XmClkNdxdNLs1
+  z8K6dINgrzjRwnTKRQo5MMKP2NTJsc88lO7skCAwEAAToLaGJvbWF4LXByb2RAAUgBEoADTcN7mjfYn13d7OESf49+DxQoEM+o/0Ym92J77mGiil0md0B1g7Lh
+  hfKgScRpP6iD3TeII/J/J6tyo74y4QCjY0ugw5Cj9/4ZgIy9KFo8OpaqEFzABjS1h/pTBdF26grl6NB5A6/qrn59Jj1KRkFVFpRATAuANy6q/28OVx7wTELQNh
+  QBJsIvKsx2SLr0R/2TQle6/JkQ8NrloU778TNA/9k8zLg5zQKoNLM66t+5OI5GY2lt40m3j0lNEklrZmKfTTbBdbfUeqeaEPhxKpY94vT7zESLcFlMDeZSinmA
+  GKpNccwgvhcA0fO0J0rI4Xk5jtt6vv1k3jHtF3D19kSWf/BBNNMg75zgQoLLb8idWkj2xvKy8Zy8gRSwuRVZQTO7TEzyjNbKSdA4K5C3Kuab1Qakxy4AAPWRnY
+  eo4BL0coxJz8/Dg0Y3tyWNX8odBtb3yCfPiulHq/nUP6NB+fGaGyCRd5NFFrwxO1SCrEZ3QDMWtzXUnqWdVRxUHXVglk2X
+
+endpoints:
+  manifest: https://comet-emea.api.hbo.com/express-content/{title_id}
+  tokens: https://comet-emea.api.hbo.com/tokens
+  refresh_tokens: https://oauth-emea.api.hbo.com/auth/tokens
+  content: https://comet-emea.api.hbo.com/content
+  session: https://sessions.api.hbo.com/sessions/v1/clientConfig
+
+device:
+  name: desktop
+  os_version: undefined
+  serial_number: fc576856-840d-4582-86a7-18872f652504
+  
+client:
+  desktop:
+    id: 585b02c8-dbe1-432f-b1bb-11cf670fbeb0
+    version: Hadron/52.20.0.13 desktop (DESKTOP)
+    client_version: hadron_52.20
+  android:
+    name: androidtv
+    id: 7161aff6-188a-4718-8d35-69c6ae58884f
+    version: Hadron/52.20.0.13 android/52.20.0.13 (ONEPLUS A5010/10)
+    os_version: 11.0.0
+    client_version: hadron_52.20

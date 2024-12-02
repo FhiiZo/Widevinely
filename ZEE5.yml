@@ -1,0 +1,29 @@
+certificate: |
+  CAUSuQUKswIIAxIQTBvbgP1Avrk5wSGIMyCvYRjV5pC7BSKOAjCCAQoCggEBANZJ542CyvnJY1c3AsvH1jtzpXtHIfaL+gaiqFK9TQG3hA5UZq2kJaBVe+
+  JfXKL4OV1qwyV18/OXiWeNFXJc7TTSkuC+oqnNFIuICNCvAH2dhpB/FBOm7w6X8kGQUZh9vm0QxbpLct60VUl1uwajN76lJRtrIkZyvy9+Ep6AST3cYPDW
+  whIwao6BDSWDk8XlxT+Lu22RgaiYPUgBUhnc3uhN4jyYZj5lQ4HIw7YJ8rMTI+CVS1TcxAeQfwoDfmLkIK0ifRBuUbKVDFXKaHCD62+MOytkCQsDGuSWAL
+  +zX2lFtuyIEU3tF1yAHHZNP4OilJktHA4rw600jhl8OazEe/MCAwEAAToGYnV5ZHJtEoADfn/wSHa0UlyDQqzv+GDaAbT8sMV7tUpqXbAHSCJRmdIDX/Zu
+  ZPLVJucxSnEVakX5goeMELdkKjMeGi75dojRoVEPpWw7GJSxzxZ8LAjRE+Y2ymVxyKgeH7MZxVIGhxxBosUVnOR3LyCfKiUArK/cZ2wQYJ/mOFOmBQDEmD
+  U7nkGclIJOxY0BKNwpMlKJFWy32srxXJlDJ1VozWdkLxZuMP6J0qzqsZGm0AIMXPMPha16XIsycTPA5O7cjb3fF2hqWZF7ah1NMbcvfprZiPfJPCWnwtL+
+  ZCz8poq1PJ2QRXr0GE1ZwS5CDv/AmOiE2i3NuhdVTrBi1aQ6QBB5rkERA2ypjBAPV59PreurelpBx8kgZSTxwITRJJvO46INq0Jy7bHXL42iDli25YatVW
+  4s7IlGPHIjSphQ/Z4k/PKwX3vQOe5LvGWyRN4OXcNFBdZB6yv5k+2LYW2yhz5NFjO92p4YCwSXx/s/7EidD4tev5Ry6N3/heqc7YIIo2q4hsyp
+
+
+x-dd-token: |
+  eyJzY2hlbWFfdmVyc2lvbiI6IjEiLCJvc19uYW1lIjoiTi9BIiwib3NfdmVyc2lvbiI6Ik4vQSIsInBsYXRmb3JtX25hbWUiOiJDaHJvbWUiLCJwbGF0Z
+  m9ybV92ZXJzaW9uIjoiMTA0IiwiZGV2aWNlX25hbWUiOiIiLCJhcHBfbmFtZSI6IldlYiIsImFwcF92ZXJzaW9uIjoiMi41Mi4zMSIsInBsYXllcl9jYX
+  BhYmlsaXRpZXMiOnsiYXVkaW9fY2hhbm5lbCI6WyJTVEVSRU8iXSwidmlkZW9fY29kZWMiOlsiSDI2NCJdLCJjb250YWluZXIiOlsiTVA0IiwiVFMiXSw
+  icGFja2FnZSI6WyJEQVNIIiwiSExTIl0sInJlc29sdXRpb24iOlsiMjQwcCIsIlNEIiwiSEQiLCJGSEQiXSwiZHluYW1pY19yYW5nZSI6WyJTRFIiXX0s
+  InNlY3VyaXR5X2NhcGFiaWxpdGllcyI6eyJlbmNyeXB0aW9uIjpbIldJREVWSU5FX0FFU19DVFIiXSwid2lkZXZpbmVfc2VjdXJpdHlfbGV2ZWwiOlsiT
+  DMiXSwiaGRjcF92ZXJzaW9uIjpbIkhEQ1BfVjEiLCJIRENQX1YyIiwiSERDUF9WMl8xIiwiSERDUF9WMl8yIl19fQ==
+
+endpoints:
+  title: https://gwapi.zee5.com/content/details/{contentId}
+  season: https://gwapi.zee5.com/content/season/{contentId}?page={page}&limit={limit}
+  playback: https://spapi.zee5.com/singlePlayback/getDetails/secure
+  license: https://spapi.zee5.com/widevine/getLicense
+  country: https://xtra.zee5.com/country
+  device: https://subscriptionapi.zee5.com/v1/device?name=androidtv_app
+  auth_token: https://whapi.zee5.com/v1/user/loginemail_v2.php
+  session_token: https://useraction.zee5.com/token/platform_tokens.php?platform_name=androidtv_app
+  video_token: https://useraction.zee5.com/tokennd

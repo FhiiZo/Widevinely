@@ -1,0 +1,19 @@
+certificate: |
+  CAUSugUKtAIIAxIQbj3s4jO5oUyWjDWqjfr9WRjA2afZBSKOAjCCAQoCggEBALhKWfnyA+FGn5P3tl6ffDjoGq2Oq86hKGl6aZIaGaF7XHPO5mIk7Q35ml
+  ZIgg1A458Udb4eXRws1n+kJFqtZXCY5S1yElLP0Om1WQsoEY2stpl+PZTGnVv/CsOJGKQ8K4KMr7rKjZem9lA9BrBoxgfXY3tbwlnSf3wTEohyANb5Qfpa
+  xsU4v8tQDA8PcjzzV9ICodl6crcFZhAy4QMNXfbWOv/ZrGFx5blSXrzP1sMQ64IY8bjUYw4coZM34NDhu8aCA692g8k2mTz2494x7u3Is8v7RKC9ZNiETE
+  K5/4oeVclXPpelNQokR4uvggnCD1L2EULG/pp6wnk1yWNNLxcCAwEAAToHYmFtdGVjaBKAA2FqHlqkE7EUmdOLiCi0hy5jRgBDJrU1CWNHfH6r2i6s5T5k
+  6LK7ZfD65Tv6uyqq1k82PsDz4++kxbpfJDZaypFbae4XPc6lZxRCc5X0toX/x9TftOQQ4N82l5Hxoha569EPRkrnNy7rO7xrRILa3ZVj1alttEnEEjxEuw
+  SV8usdlUg8/LvLA2C59T/HA2I77k7yVbTrVdy0f81r2l+E2SslivCy1JD3xKlgoaKl4xBnRxItWt8+DCw1Xm2lemYl2LGoh1Wk9gvlXQvr2Jv2+dFX3RNs
+  i5sd00KS9sePszfjoTkQ6fmpRd7ZgFCGFWYB9JZ92aGUFQRE14OTST2uwSf32YCfsoATDNs4V6dB8YDoTGKFGrcoc4gtHPKySGNt7z/fOW4/01ZGzKqoVY
+  Fp3jPq7R0qyt5P6fU5NshbLh5VKcnQvwg62BuKsdwV9u4NV36b2a546hGRl/3GBneQ+QDA7NRrgITR33Sz02Oq8yJr3sy24GfZRTbtLJ4qiWkjtw==
+
+device_api_key: ZGlzbmV5JmFuZHJvaWQmMS4wLjA.bkeb0m230uUhv8qrAXuNu39tbE_mD5EEhM_NAcohjyA
+bamsdk:
+  config: https://bam-sdk-configs.bamgrid.com/bam-sdk/v4.0/disney-svod-3d9324fc/android/v7.4.0/google/tv/prod.json
+  family: android
+  profile: tv
+  applicationRuntime: android
+  platform: android-tv
+  version: 7.4.0
+  user_agent: BAMSDK/v7.4.0 (disney-svod-3d9324fc 1.15.0.0; v4.0/v7.4.0; android; tv) google Nexus Player (OPR2.170623.027; Linux; 8.0.0; API 26)

@@ -1,0 +1,25 @@
+certificate: |
+  CAUSywUKxQIIAxIQHciw5z8F6pqeeG2/ZUD9ARiTia2kBSKOAjCCAQoCggEBAMGSq+uqlP7WpHbLW29fI7d9FlD5057W4VgNmE7PtXk8CwqIulHPR38/rk
+  J0fYNMs4/ArL5/6whmHAz9jA0ZP0pabj8khZYbjaPyHnxcnIlmOXn9nl1ulL9xjvSHIXRKFB0OCr8H1waZd2ms+M4xInVZubPp7Pe8RPSZJVmi7T/wueuV
+  wwHyr0YC+33j/iz0uM4d6vnhu4W6958TgJoA0oWl+Ov/tMYKGHOz6dGUAWXIv0z9MV2mRrlceNoz8wk6MzRRBGdu29qKKqoxS+BObFqD97MTEXAClWd1Tb
+  virqJp/TyQkxYTXXP2oP1+iUn2sPxFhtmJonF8yg7tF/eu/F8CAwEAAToYYWxjYXRyYXpfdGVzdF9kcm1fc2VydmVyEoADJRNO4iJkp/OdmmI8k2N8K9m0
+  d2zhDC0TgoOTcmDgPi/J4ckB8IJAY8TLDR4pkpEfq7sPb948pu0ClxYu3licNyZEL7Rcq5GAaXfZpXFIEYtNJwbUrgvTBWYZ9iUlyz0t0KnbYOvhhFleBm
+  kIGyuIzUCcI33YLdUDyAYg4G8WNfsXabkg2cyj8NAvb/YYBddkoXEzQpLA+rNETpuEFS4+NLtF6hXMSh+qyQCnKipnleugc3OnmYBUtS9M48Vi8l3Mb2gs
+  oEymT8FrOx7IU6UyLxtGl6Fq8AvddiNOA7M8ElzJEToGi0s/GGi+Oupk0roBAlvya8DK7VDoFP5TjhI4pN+Jz+RUVMR+MNkutpDsiSrz6JMOPj+HlMClBr
+  xYXESDclYJtkgCrGPrYdpjuY+CSDJ/acCYI2xbV/DcnTUqL+GtAb4xC1azBg3hlqY+4MP07p7Im7H9oQLSAhtKuJEbx6uIPOdeZ+Ozr1PXT0AlJOa/1iuj
+  x9mDrYt5ci3pg4E2
+
+endpoints:
+  movie: https://www.paramountplus.com/apps-api/v3.0/androidphone/movies/{title_id}.json
+
+  tv: https://www.paramountplus.com/apps-api/v2.0/androidphone/shows/{title_id}/videos/config/SHOW_LANDING_EPISODES.json
+  seasons: https://www.paramountplus.com/apps-api/v2.0/androidphone/shows/{title_id}/video/season/availability.json
+
+  xhr_tv: "https://www.paramountplus.com/apps-api/v3.0/androidphone/shows/{title_id}.json"
+  xhr_episodes: "https://www.paramountplus.com/{show_name}xhr/episodes/page/{page}/size/50/xs/0/season/0"
+
+  video_items: https://www.paramountplus.com/apps-api/v2.0/{device}/video/cid/{content_id}.json
+  section: https://www.paramountplus.com/apps-api/v2.0/androidphone/videos/section/{id}.json
+
+  link_platform: http://link.theplatform.com/s/dJ5BDC/media/guid/2198311517/{content_id}
+  license: https://cbsi.live.ott.irdeto.com/widevine/getlicense
